@@ -18,11 +18,12 @@ public class EmployeePay {
         scanner.close();
 //        3. Multiply Hours and pay
          double payable =  hours * rate;
-        DecimalFormat df = new DecimalFormat("0.00");
 
 //        4. Display results
         System.out.println("Payable amount: " +payable);
 
+//        Collect a until 2 decimal places
+        DecimalFormat df = new DecimalFormat("0.00");
         System.out.println(df.format(rate));
 
 
