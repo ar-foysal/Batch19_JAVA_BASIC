@@ -4,6 +4,13 @@ package basic;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+import static basic.calculator.calculateSubtract;
+import static basic.calculator.calculateSum;
+
+/*
+During this session, we discuss Package, Classes, Methods, Input, Output,
+Data Types, Variables, Naming Convention in java, Reserved word in Java & Comment
+ */
 public class EmployeePay {
     public static void main(String[] args) {
 //        1. Get number of worked hour
@@ -26,6 +33,8 @@ public class EmployeePay {
         DecimalFormat df = new DecimalFormat("0.00");
         System.out.println(df.format(rate));
 
+        calculateSubtract(2, 5);
+        calculateSum(2, 3);
 
     }
 }
