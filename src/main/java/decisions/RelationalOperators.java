@@ -1,4 +1,4 @@
-package Decisions;
+package decisions;
 
 public class RelationalOperators {
     public static void main(String[] args) {
